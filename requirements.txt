@@ -5,3 +5,4 @@ httplib2==0.8
 pycurl==7.19.3
 requests
 urllib3
+numpy
