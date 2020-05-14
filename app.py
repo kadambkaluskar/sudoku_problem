@@ -9,9 +9,7 @@ app = Flask(__name__)
 
 def check_small_cube(index):
 	i = 0
-	print('inside-function',index)
 	for i in range(2,9,3):
-		print('i - ',i)
 		if 45 != sudoku_list[index-2][i-2] + sudoku_list[index-2][i-1] + sudoku_list[index-2][i]  \
 			+ sudoku_list[index-1][i-2] + sudoku_list[index-1][i-1] + sudoku_list[index-1][i] \
 			+ sudoku_list[index][i-2]   + sudoku_list[index][i-1]   + sudoku_list[index][i] :
