@@ -1,7 +1,7 @@
 Flask==1.1.2 
 Werkzeug==0.15.3
 gunicorn==19.5.0
-httplib2==0.18.0
+httplib2==0.19.0
 pycurl==7.19.3
 requests
 urllib3
